@@ -1,0 +1,5 @@
+file = open("overwrite.text", "w")
+file.write("write your name for example ! ")
+file.close()
+file = open("overwrite.text", "r")
+print(file.read())
